@@ -1,0 +1,189 @@
+﻿html
+{
+    height:100%;
+}
+
+body
+{
+    background-color:#0A1B1B;
+    margin:0;
+    height:100%;
+}
+
+#button_login
+{
+    border: 0 none;
+    display: inline-block;
+    float: right;
+    font-size: 8px;
+    height: 12px;
+    margin-top: 6px;
+    width: 30px;
+}
+
+#buttons_right
+{
+    float:right;
+    height:100%;
+    display:inline-block;
+}
+
+#buttons_right a.link
+{
+    display:inline-block;
+    width:48px;
+    height:48px;
+}
+
+#link_user
+{
+    background-image:url('/css/images/user.png')
+}
+
+#link_car
+{
+    background-image:url('/css/images/car.png');
+}
+
+#login
+{
+    height:100%;
+}
+
+.login_section
+{
+    height:100%;
+    display:inline-block;
+    padding: 0 10px;
+}
+
+.login_section .title
+{
+    margin:0;
+    font-family:helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+}
+
+.login_help_link
+{
+    display:inline-block;
+    color:white;
+    font-family:helvetica, sans-serif;
+    font-size:10px;
+}
+
+#main_content
+{
+    background-image:url('/css/images/front_bg_image.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:80%;
+    margin:0 auto;
+    height: 100%;
+}
+
+#search_ride {
+    width:60%;
+    margin:0 auto;
+    display:block;
+}
+
+#top_nav
+{
+    width:100%;
+    height:48px;
+    background-image:url('/css/images/top_nav_bg.png');
+}
+
+#content
+{
+    padding-top:20px;
+}
+
+#search_ride
+{
+    height:24px;
+    border-radius:5px;
+    box-shadow:none;
+    border:0 none;
+    padding-left:30px;
+    background-image:url('/css/images/icon_search_a50.png');
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+}
+
+#facebook_connect
+{
+    display:inline-block;
+    width:128px;
+    height:34px;
+    position:relative;
+    top:7px;
+    background-image:url('/css/images/facebook_connect.png');
+}
+
+.search_option
+{
+    display:inline-block;
+    width:calc(100%/3);
+    float:left;
+}
+
+#search_options
+{
+    width:60%;
+    margin:20px auto 0 auto;
+}
+
+#search_options a
+{
+    display:inline-block;
+    padding:20px;
+    background-color:black;
+    color:white;
+    font-family:helvetica,sans-serif;
+    font-weight:bold;
+    user-select:none;
+    font-size:12px;
+    -moz-user-select:none;
+    cursor:pointer;
+    width:80%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    position:relative;
+    text-align:center;
+}
+
+#search_option_near_me a
+{
+    left:10%;
+}
+
+#search_option_last_minute a
+{
+    left:20%;
+}
+
+#search_result_titles
+{
+    width:60%;
+    margin:20px auto 0 auto;
+}
+
+#search_result_titles table
+{
+    width:100%;
+    border-collapse:collapse;
+    height:30px;
+    font-family:helvetica,sans-serif;
+    color:white;
+    font-weight:bold;
+}
+
+#search_result_titles table th
+{
+    width:calc(100%/6);
+    background-image:url('/css/images/pixel_a85.png');
+}

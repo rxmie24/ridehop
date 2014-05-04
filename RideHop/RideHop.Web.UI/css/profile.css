@@ -1,0 +1,123 @@
+﻿#profile_left
+{
+    width:50%;
+    float:left;
+}
+
+#profile_right
+{
+    width:50%;
+    float:left;
+}
+
+#profile p
+{
+    margin:0;
+}
+
+#basic_info
+{
+    margin:20px 0 0 20px;
+    width:60%;
+    padding:20px;
+    background-image:url('/css/images/pixel_a85.png');
+    color:white;
+    font-family:helvetica,sans-serif;
+}
+
+#profile_pic
+{
+    display:inline-block;
+    float:left;
+}
+
+#info_right
+{
+    display:inline-block;
+    float:left;
+    margin-left:15px;
+}
+
+#reviews
+{
+    width:60%;
+    margin: 20px 0 0 20px;
+    padding:20px;
+    background-image:url('/css/images/pixel_a85.png')
+}
+
+#reviews_title,#ride_requests_title
+{
+    color:white;
+    font-weight:bold;
+    font-family:helvetica,sans-serif;
+    padding:5px 0px 5px 0px;
+}
+
+#no_review
+{
+    color:#BBBBBB;
+    font-size:12px;
+    font-family:helvetica,sans-serif;
+}
+
+#ride_requests
+{
+    margin:20px 20px;
+    padding:20px;
+    background-image:url('/css/images/pixel_a85.png');
+}
+
+#ride_requests p
+{
+    margin:0;
+}
+
+.review_message,.review_rating
+{
+    color:white;
+    font-family:helvetica,sans-serif;
+}
+
+.ride_request .accepted
+{
+    font-family:helvetica,sans-serif;
+    color:green;
+    background-color:white;
+    height:20px;
+    width:80px;
+    font-size:14px;
+    text-align:center;
+    line-height:20px;
+    padding:2px 5px;
+    float:right;
+    cursor:default;
+    user-select:none;
+    -moz-user-select:none;
+    margin:6px 0px;
+}
+
+.requester_name
+{
+    color:white;
+    font-family:helvetica,sans-serif;
+    display:inline-block;
+    height:36px;
+    line-height:36px;
+}
+
+.ride_request
+{
+    height:36px;
+}
+
+.ride_request form
+{
+    display:inline-block;
+}
+
+.request_controls
+{
+    display:inline-block;
+    float:right;
+}

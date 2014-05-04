@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHop.Data.Console", "RideHop.Data.Console\RideHop.Data.Console.csproj", "{FBB50C3C-37BE-4FD7-9272-E7A2CAEF3BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHop.Data.Lib", "RideHop.Data.Lib\RideHop.Data.Lib.csproj", "{39E66C92-3AE4-4096-A455-EE5717A3ADC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHop.Front.UX", "RideHop.Web.UI\RideHop.Front.UX.csproj", "{4062C6CD-8EC1-48DF-AD58-B85D589D128E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHop.Data.Engine", "RideHop.Data.Engine\RideHop.Data.Engine.csproj", "{C2D921F4-A31B-4A1E-A9CD-2EF3890C7586}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://habix.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RideHop.Data.Console\\RideHop.Data.Console.csproj
+		SccProjectName1 = RideHop.Data.Console
+		SccLocalPath1 = RideHop.Data.Console
+		SccProjectUniqueName2 = RideHop.Data.Lib\\RideHop.Data.Lib.csproj
+		SccProjectName2 = RideHop.Data.Lib
+		SccLocalPath2 = RideHop.Data.Lib
+		SccProjectUniqueName3 = RideHop.Data.Engine\\RideHop.Data.Engine.csproj
+		SccProjectName3 = RideHop.Data.Engine
+		SccLocalPath3 = RideHop.Data.Engine
+		SccProjectUniqueName4 = RideHop.Web.UI\\RideHop.Front.UX.csproj
+		SccProjectName4 = RideHop.Web.UI
+		SccLocalPath4 = RideHop.Web.UI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB50C3C-37BE-4FD7-9272-E7A2CAEF3BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB50C3C-37BE-4FD7-9272-E7A2CAEF3BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB50C3C-37BE-4FD7-9272-E7A2CAEF3BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB50C3C-37BE-4FD7-9272-E7A2CAEF3BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E66C92-3AE4-4096-A455-EE5717A3ADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E66C92-3AE4-4096-A455-EE5717A3ADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E66C92-3AE4-4096-A455-EE5717A3ADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E66C92-3AE4-4096-A455-EE5717A3ADC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4062C6CD-8EC1-48DF-AD58-B85D589D128E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4062C6CD-8EC1-48DF-AD58-B85D589D128E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4062C6CD-8EC1-48DF-AD58-B85D589D128E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4062C6CD-8EC1-48DF-AD58-B85D589D128E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D921F4-A31B-4A1E-A9CD-2EF3890C7586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D921F4-A31B-4A1E-A9CD-2EF3890C7586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D921F4-A31B-4A1E-A9CD-2EF3890C7586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D921F4-A31B-4A1E-A9CD-2EF3890C7586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://habix.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RideHop.Data.Console\\RideHop.Data.Console.csproj
+		SccProjectName1 = RideHop.Data.Console
+		SccLocalPath1 = RideHop.Data.Console
+	EndGlobalSection
+EndGlobal
